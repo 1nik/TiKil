@@ -6,12 +6,10 @@ VAR
     board: tBoard;
     testRow: tRow;
     i,j,iCoord,jCoord,iTrueCoord,jTrueCoord,size,hSize,vSize,menu:integer;
-PROCEDURE initialMessage;
-BEGIN
-END;
 PROCEDURE mainMenu;
 BEGIN
-    writeln;
+    writeln('Welcome to TiKil, the Time Killer Game.');
+    writeln('Input 1 to Start or 0 to quit.);
 END;
 PROCEDURE chooseSize;
 BEGIN
