@@ -6,9 +6,12 @@ VAR
     board: tBoard;
     testRow: tRow;
     i,j,iCoord,jCoord,iTrueCoord,jTrueCoord,size,hSize,vSize,menu:integer;
+PROCEDURE initialMessage;
+BEGIN
+END;
 PROCEDURE mainMenu;
 BEGIN
-    writeln;        
+    writeln;
 END;
 PROCEDURE chooseSize;
 BEGIN
