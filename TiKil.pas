@@ -5,7 +5,11 @@ TYPE
 VAR
     board: tBoard;
     testRow: tRow;
-    i,j,iCoord,jCoord,iTrueCoord,jTrueCoord,size,hSize,vSize:integer;
+    i,j,iCoord,jCoord,iTrueCoord,jTrueCoord,size,hSize,vSize,menu:integer;
+PROCEDURE mainMenu;
+BEGIN
+    writeln;        
+END;
 PROCEDURE chooseSize;
 BEGIN
     writeln('Introduce the desired size of the playing board.');
